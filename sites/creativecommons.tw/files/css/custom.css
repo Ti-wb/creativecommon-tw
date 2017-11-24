@@ -1,3 +1,18 @@
 #licence_icon   {
     margin-top: 2vh;
 }
+div.container-card  {
+    margin: 10vh auto;
+    width: 70vw;
+    margin-bottom: 20vh;
+}
+div.card    {
+    width: 20vw;
+    height: 40vh;
+}
+div.card-header {
+    text-align: center;
+}
+div.card-body   {
+    text-align: center;
+}
