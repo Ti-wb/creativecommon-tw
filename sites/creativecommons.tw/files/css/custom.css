@@ -9,6 +9,7 @@ div.container-card  {
 div.card    {
     width: 20vw;
     height: 40vh;
+    border-radius: 0px;
 }
 div.card-header {
     text-align: center;
