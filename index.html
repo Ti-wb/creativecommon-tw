@@ -15,8 +15,9 @@
     <meta name="HandheldFriendly" content="true">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
   <meta http-equiv="cleartype" content="on">
-
-  <link type="text/css" rel="stylesheet" href="sites/creativecommons.tw/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link rel="stylesheet" href="sites/creativecommons.tw/files/css/custom.css">  
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link type="text/css" rel="stylesheet" href="sites/creativecommons.tw/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
 <link type="text/css" rel="stylesheet" href="sites/creativecommons.tw/files/css/css_vZ_wrMQ9Og-YPPxa1q4us3N7DsZMJa-14jShHgRoRNo.css" media="screen" />
 <link type="text/css" rel="stylesheet" href="sites/creativecommons.tw/files/css/css_5hnYYOE5XkltW6cF3IHH909BcprCD6X0MWLdMjAjuiU.css" media="all" />
 <link type="text/css" rel="stylesheet" href="sites/creativecommons.tw/files/css/css_Bv8rze3bzts4GWfFpIbz-qvcs2SWOHyfT5fZc2i3DNk.css" media="all" />
@@ -98,7 +99,7 @@ $(document).ready(function(){
 <li class="menu__item is-collapsed collapsed"><a href="explore.html" class="menu__link">創用CC授權</a></li>
 <li class="menu__item is-collapsed collapsed"><a href="public_domain.html" class="menu__link">公眾領域</a></li>
 <li class="menu__item is-collapsed collapsed"><a href="news.html" class="menu__link">新知消息</a></li>
-<li class="menu__item is-collapsed last collapsed"><a href="files_club.html " title="" class="menu__link">檔案館</a></li>
+<li class="menu__item is-collapsed last collapsed"><a href="feature.html" title="" class="menu__link">特別企劃</a></li>
 </ul>
 </div>
   </div>
@@ -178,10 +179,21 @@ $(document).ready(function(){
       </div>
       </div>
     </div>
+  <div class="container d-flex clearfix">
+  <div class="iframe d-inline-block" onload="this.witdh=500;" frameborder="0">
+    <iframe src="https://groups.google.com/forum/feed/cctw-discussion/topics/rss.xml?num=10"></iframe>
+  </div>
   
-  
-  
-  
+  <div class="links d-inline-block">
+    <ul>
+      <li><a href="downloads.html">教材</a></li>
+      <li><a href="downloads.html">影片</a></li>
+      <li>演講邀約</li>
+      <li>演講者清單</li>
+      <li>招募 CC 分會會員</li>
+    </ul>
+  </div>
+  </div>
   
   
 </div>
@@ -228,11 +240,13 @@ $(document).ready(function(){
 <div id="block-block-10" class="block block-block odd">
 
       
-  
+  <div class="foot-license"><a href="http://creativecommons.org/licenses/by-sa/3.0/tw/"><img src="sites/all/themes/cctw2013/images/cc-by-sa.png"></a>除另有註明，網站之內容皆採用 <br><a href="http://creativecommons.org/licenses/by-sa/3.0/tw/">創用CC 姓名標示-相同方式分享 3.0 台灣</a> 授權條款 </div>
+</div>
 <div id="block-block-11" class="block block-block last even">
 
       
-  
+  <div class="foot-icon"><a href="http://www.citi.sinica.edu.tw"><img src="sites/all/themes/cctw2013/images/citi-logo-bw.png"></a><a href="http://www.citi.sinica.edu.tw">中央研究院資訊科技創新研究中心</a><br><a href="http://www.citi.sinica.edu.tw">Research Center for Information Technology Innovation</a></div>
+</div>
 	</div>
 	</div>
   </footer>
@@ -240,11 +254,13 @@ $(document).ready(function(){
     <div id="block-block-25" class="block block-block first last odd">
 
       
-  <div class="cctwfoot">
-        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img id="licence_icon" alt="創用 CC 授權條款" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />本網站內容係採用<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">創用 CC 姓名標示-相同方式分享 4.0 國際 授權條款</a>授權.
-<a href="policies.html">使用條款</a></div>
+  <div class="cctwfoot">台灣創用CC計畫 製作 最佳瀏覽狀態：Chrome 或 IE9 或 Firefox2.0以上 (建議使用Chrome) ‧ 解析度1024*768 ‧ <a href="policies.html">使用條款</a></div>
 
 </div>
   </div>
   </body>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </html>
