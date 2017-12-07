@@ -19,6 +19,7 @@ div.card-body   {
     line-height: 30vh;
     font-family: "Noto Sans CJK Tc Reguler";
     font-size: 1.1em;
+    background-image: url("sites/creativecommon.tw/files/Publicher.png");
 }
 div.card-deck   {
     margin: 5vh auto;
@@ -51,4 +52,8 @@ div.links   {
 }
 div.container   {
     margin-bottom: 10vh;
+}
+img.card-img-top    {
+    height: 40vh;
+    width: 20vw;
 }
