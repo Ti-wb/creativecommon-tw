@@ -80,13 +80,16 @@ img.main-img    {
     padding: 0;
 }
 div.main-textblock   {
-    background-color: #1b1b1b;
+    background-color: #525252;
     color: #ffffff;
     text-align: left;
 }
 p.main-text {
-    margin: 10% auto;
+    margin: 20% auto;
     width: 90%;
+    font-family: "Noto Sans CJK Tc Medium";
+    font-weight: bolder;
+    font-size: 1.4em;
 }
 div.links   {
     width: 65vw;
