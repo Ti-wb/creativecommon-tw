@@ -90,3 +90,14 @@ div.description {
 div.main-bottom {
     margin-top: 5vh;
 }
+h4.rss-title    {
+    font-weight: bolder;
+    font-family: "Noto Sans CJK Tc Medium";
+    font-size: 1.5em;
+    text-align: center;
+}
+p.rss-description   {
+    font-size: 0.9em;
+    width: 90%;
+    margin: 0 auto;
+}
