@@ -18,9 +18,9 @@ div.card-body   {
     text-align: center;
     font-family: "Noto Sans CJK Tc Medium","微軟正黑體","Open Sans";
     font-weight: bolder;
-    font-size: 1.8em;
+    font-size: 1.9em;
     color: #000000;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
     background-image: url("sites/creativecommon.tw/files/Publicher.png");
     transition-duration: 0.2s;        
 }
@@ -32,7 +32,7 @@ div.card-body > p   {
     transition-duration: 0.2s;    
 }
 div.card-body:hover {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.45);
     transition-duration: 0.2s;
 }
 div.card-body:hover p   {
