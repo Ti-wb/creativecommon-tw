@@ -126,3 +126,8 @@ p.rss-description   {
 footer.footer {
     width: 70vw;
 }
+img.card-img-top    {
+    width: 100%;
+    height: 100%;
+    margin: auto auto;
+}
